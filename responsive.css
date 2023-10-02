@@ -1,0 +1,60 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .container h2, .header{
+        margin-bottom: 2rem;
+    }
+    .container {
+        width: 580px;
+        margin: 0 auto; 
+    }
+    .form {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+    }
+    .form input {
+        width: 100px;
+        margin-bottom: 5px;
+        height: 30px;
+        padding: 0 5px;
+        line-height: normal;
+    }
+    .form input[type="submit"]:hover{
+        background-color: #7f00e7;
+        transition: all .5s;
+        color: #FFF;
+    }
+    .tablePeople {
+        height: 50vh;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .container {
+        width: 738px;
+    }
+    .form input {
+        width: 18%;
+        margin-bottom: 5px;
+    }
+    table button {
+        width: 72px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 952px;
+        margin: 0 auto; 
+    }
+    .form input {
+        width: 18%;
+        margin-bottom: 5px;
+    }
+    table button {
+        width: 48%;
+    }
+
+}
